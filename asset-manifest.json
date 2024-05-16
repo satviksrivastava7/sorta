@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sorta/static/css/main.8f3d8828.css",
+    "main.js": "/sorta/static/js/main.75c73d5b.js",
+    "static/js/453.a6a97343.chunk.js": "/sorta/static/js/453.a6a97343.chunk.js",
+    "static/media/satvik.jpeg": "/sorta/static/media/satvik.65a498d75e5cffcb0f5b.jpeg",
+    "index.html": "/sorta/index.html",
+    "main.8f3d8828.css.map": "/sorta/static/css/main.8f3d8828.css.map",
+    "main.75c73d5b.js.map": "/sorta/static/js/main.75c73d5b.js.map",
+    "453.a6a97343.chunk.js.map": "/sorta/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f3d8828.css",
+    "static/js/main.75c73d5b.js"
+  ]
+}
