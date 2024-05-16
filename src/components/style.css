@@ -1,0 +1,172 @@
+.sorting-visualizer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details {
+  margin-bottom: 10px;
+}
+
+.array {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 75%;
+  gap: 50px;
+}
+
+.array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 450px;
+  width: 80%;
+}
+
+.array-bar {
+  width: 25px;
+  margin: 0 1px;
+  border-bottom: none;
+}
+
+.navbar {
+  display: flex;
+  width: 80%;
+  height: 100px;
+  padding: 0 100px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid rgba(25, 25, 25, 0.25);
+}
+
+.controls {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.btn {
+  width: 180px;
+  height: 40px;
+  background: #282828;
+  padding: 10px;
+  color: #fff;
+  font-size: 21;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+
+.btn-sort {
+  width: 125px;
+  height: 40px;
+  padding: 10px;
+  background-color: #21d375;
+  font-size: 21;
+  font-weight: bold;
+  color: #282828;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn-sort:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+
+.selector {
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  background-color: #282828;
+  color: #fff;
+  font-size: 21;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.sizeSelect {
+  display: flex;
+  width: 150px;
+  background-color: #282828;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 38px;
+  color: #fff;
+  font-size: 21;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+}
+
+.number {
+  width: 50px;
+  height: 35px;
+  color: #fff;
+  font-size: 18;
+  background-color: #282828;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.image {
+  max-width: 125%;
+  height: auto;
+  object-fit: cover;
+}
+
+.image:hover {
+  max-width: 175%;
+  height: auto;
+  cursor: pointer;
+  object-fit: contain;
+  transform: translate(-20%, -8%);
+}
+
+.social-icons {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social-icons a {
+  color: #181818;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  cursor: pointer;
+  scale: 1.05;
+  color: #0f8548;
+}
